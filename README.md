@@ -24,9 +24,9 @@ This is a python multi-threaded framework for real-time, multi-person face and f
     APPID = b'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
     SDKKey = b'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
     ```
-2. Download the pre-trained model from https://pan.baidu.com/s/11FX20KJhUpHVTsOyMfjCdA Code:T209 and then put it in the "FER2013_VGG19" folder
+2. Download the pre-trained model "expression_recognition_model.t7" from https://pan.baidu.com/s/11FX20KJhUpHVTsOyMfjCdA Code:T209 and then put it in the "FER2013_VGG19" folder
 
-3. Download file:libarcsoft_face_engine.so from https://pan.baidu.com/s/1Ibmh9rQ1ch13xpfdWFY_GA Code:T407 and then put it in the "lib" folder
+3. Download ArcFace repository "libarcsoft_face_engine.so" from https://pan.baidu.com/s/1Ibmh9rQ1ch13xpfdWFY_GA Code:T407 and then put it in the "lib" folder
 
 4. Select a face image as the face comparison picture, put it under the "facelibrary/images" folder, and name it with the name corresponding to the face, such as "yourName.jpg"
     ```
