@@ -26,7 +26,9 @@ This is a python multi-threaded framework for real-time, multi-person face and f
   ```
 2. Download the pre-trained model from https://pan.baidu.com/s/11FX20KJhUpHVTsOyMfjCdA Code:T209 and then put it in the "FER2013_VGG19" folder
 
-3. Select a face image as the face comparison picture, put it under the "facelibrary/images" folder, and name it with the name corresponding to the face, such as "yourName.jpg"
+3. Download file:libarcsoft_face_engine.so from https://pan.baidu.com/s/1Ibmh9rQ1ch13xpfdWFY_GA Code:T407 and then put it in the "lib" folder
+
+4. Select a face image as the face comparison picture, put it under the "facelibrary/images" folder, and name it with the name corresponding to the face, such as "yourName.jpg"
   ```
   ${POSE_ROOT}
    `-- facelibrary
@@ -37,13 +39,13 @@ This is a python multi-threaded framework for real-time, multi-person face and f
        `-- names.json
         
    ```
-4. Add the name in "facelibrary/names.json"
+5. Add the name in "facelibrary/names.json"
    ```
    ['dehua', 'xue', 'yourName']
    ```
    To load multiple face images, repeat the above operation. If you need to load a large number of face images, you can write a program to batch process
 
-5. Make sure the usb camera is installed correctly and run:
+6. Make sure the usb camera is installed correctly and run:
    ```
    python main.py
    ```
