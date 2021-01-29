@@ -7,7 +7,7 @@ This is a python multi-threaded framework for real-time, multi-person face and f
 
 
 ## Demos ##
-![Image text](https://raw.githubusercontent.com/WuJie1010/Facial-Expression-Recognition.Pytorch/master/demo/1.png)
+![Image text](https://github.com/crawfordfan/ArcFace-Real-time-Face-Recognition-Facial-Expression-Recognition/blob/main/figures/dehua.gif)
 ![Image text](https://raw.githubusercontent.com/WuJie1010/Facial-Expression-Recognition.Pytorch/master/demo/2.png)
 
 ## Dependencies ##
