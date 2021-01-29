@@ -19,11 +19,11 @@ This is a python multi-threaded framework for real-time, multi-person face and f
 
 ## Quick Start ##
 1. Firstly, get your APPID and SDKKey and fill in "faceEngineInit.py"
-  ```
-  # ==================== APPID & SDKKey ================
-  APPID = b'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-  SDKKey = b'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-  ```
+    ```
+    # ==================== APPID & SDKKey ================
+    APPID = b'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    SDKKey = b'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    ```
 2. Download the pre-trained model from https://pan.baidu.com/s/11FX20KJhUpHVTsOyMfjCdA Code:T209 and then put it in the "FER2013_VGG19" folder
 
 3. Download file:libarcsoft_face_engine.so from https://pan.baidu.com/s/1Ibmh9rQ1ch13xpfdWFY_GA Code:T407 and then put it in the "lib" folder
