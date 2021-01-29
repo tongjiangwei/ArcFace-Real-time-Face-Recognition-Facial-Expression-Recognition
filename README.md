@@ -29,14 +29,14 @@ This is a python multi-threaded framework for real-time, multi-person face and f
 3. Download file:libarcsoft_face_engine.so from https://pan.baidu.com/s/1Ibmh9rQ1ch13xpfdWFY_GA Code:T407 and then put it in the "lib" folder
 
 4. Select a face image as the face comparison picture, put it under the "facelibrary/images" folder, and name it with the name corresponding to the face, such as "yourName.jpg"
-  ```
-  ${POSE_ROOT}
-   `-- facelibrary
-       |-- images
-       |   |-- dehua.jpg
-       |   |-- xue.jpg
-       |   |-- yourName.jpg
-       `-- names.json
+    ```
+    ${POSE_ROOT}
+     `-- facelibrary
+         |-- images
+         |   |-- dehua.jpg
+         |   |-- xue.jpg
+         |   |-- yourName.jpg
+         `-- names.json
         
    ```
 5. Add the name in "facelibrary/names.json"
